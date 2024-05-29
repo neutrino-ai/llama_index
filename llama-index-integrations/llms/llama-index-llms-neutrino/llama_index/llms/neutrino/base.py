@@ -9,8 +9,8 @@ from llama_index.core.constants import (
 from llama_index.core.base.llms.generic_utils import get_from_param_or_env
 from llama_index.llms.openai_like import OpenAILike
 
-DEFAULT_API_BASE = "https://router.neutrinoapp.com/api/llm-router"
-DEFAULT_ROUTER = "default"
+DEFAULT_API_BASE = "https://router.neutrinoapp.com/api/engines"
+DEFAULT_ROUTER = "chat-preview"
 MAX_CONTEXT_WINDOW = 200000
 
 
